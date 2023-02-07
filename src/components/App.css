@@ -1,0 +1,21 @@
+.card-productos{
+  margin: 4px;
+  justify-content: center;
+}
+
+.card-producto{
+  width: 18rem;
+  margin: 4px;
+}
+
+.card--body, .precio-cards{
+  text-align: center;
+}
+
+.div-boton-cards{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 10px;
+}

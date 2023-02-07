@@ -1,4 +1,7 @@
-
+import { CartWidget } from "../CardWidget/CartWidget";
+import { LogoNombre } from "./Logo-Nombre/Logo-nombre";
+import { Secciones } from "./Secciones/Secciones";
+import { MenuDesplegable } from './Secciones/MenuDesplegable/MenuDesplegable.jsx'
 
 export const NavBar = () => {
     return (
@@ -10,10 +13,10 @@ export const NavBar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{justifyContent: 'space-between'}}>
                     <ul className="navbar-nav mb-2 mb-lg-0">
-                        <ItemsNav/>
-                        <MenuDesplegableNav/>
+                        <Secciones/>
+                        <MenuDesplegable/>
                     </ul>
-                    <CarritoNav/>   
+                    <CartWidget/>   
                 </div>
             </div>
         </nav>
